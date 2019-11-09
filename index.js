@@ -108,3 +108,5 @@ let calculatePayroll = function(arrayOfEmployeeRecords){
         return memo + allWagesFor.call(rec)
     }, 0)
 }
+
+//Using wagesEarnedOnDate, accumulate the value of all dates worked by the employee in the record used as context. Amount should be returned as a number.
