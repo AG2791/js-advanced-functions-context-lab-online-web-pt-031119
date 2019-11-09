@@ -85,6 +85,7 @@ let wagesEarnedOnDate = function(dateSought){
     return parseFloat(rawWage.toString())
 }
 
+///Using hoursWorkedOnDate, multiply the hours by the record's payRate to determine amount owed. Amount should be returned as a number.
 
 let createEmployeeRecords = function(src) {
   return src.map(function(row){
