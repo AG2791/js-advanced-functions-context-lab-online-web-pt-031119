@@ -32,11 +32,14 @@ let createEmployeeRecord = function(row){
     }
 }
 
+// Converts each nested Array into an employee record using createEmployeeRecord and accumulates it to a new Array
+
 let createEmployees = function(employeeRowData) {
     return employeeRowData.map(function(row){
         return createEmployeeRecord(row)
     })
 }
+
 
 // Loads Array elements into corresponding Object properties. Additionally, initialize empty Arrays on the properties timeInEvents and timeOutEvents.
 
