@@ -38,6 +38,8 @@ let createEmployees = function(employeeRowData) {
     })
 }
 
+// Loads Array elements into corresponding Object properties. Additionally, initialize empty Arrays on the properties timeInEvents and timeOutEvents.
+
 let createTimeInEvent = function(dateStamp){
     let [date, hour] = dateStamp.split(' ')
 
