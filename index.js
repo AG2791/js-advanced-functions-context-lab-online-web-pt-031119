@@ -101,6 +101,8 @@ let findEmployeebyFirstName = function(srcArray, firstName) {
   })
 }
 
+//Test the firstName field for a match with the firstName argument
+
 let calculatePayroll = function(arrayOfEmployeeRecords){
     return arrayOfEmployeeRecords.reduce(function(memo, rec){
         return memo + allWagesFor.call(rec)
